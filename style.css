@@ -412,8 +412,9 @@ span {
     flex-direction: column-reverse;
   }
   .about img {
-    width: 70vw;
-    margin-top: 4rem;
+    /* width: 70vw;
+    margin-top: 4rem; */
+    display: none;
   }
   .skills h2 {
     margin-bottom: 3rem;
