@@ -233,12 +233,14 @@ span {
   display: flex;
 }
 .portfolio-box img {
-  width: 100%;
+  width: 100%; 
   transition: 0.5s ease;
+  max-width: 500px;
+  height: auto;
 }
-.portfolio-box:hover img {
+/* .portfolio-box:hover img {
   transform: scale(1.1);
-}
+} */
 
 .portfolio-box .portfolio-layer {
   position: absolute;
